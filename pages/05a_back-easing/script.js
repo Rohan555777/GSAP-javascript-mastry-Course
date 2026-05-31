@@ -13,7 +13,7 @@ const updateIndicator = (target) => {
 
   gsap.to(indicator, {
     width: tabBound.width,
-    left: leftSide,
+    x: leftSide,
     ease: "back.out(1.7)",
     duration: 0.4,
   });
